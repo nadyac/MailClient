@@ -8,7 +8,6 @@ import java.net.*;
 import java.util.*;
 /**
 * SMTP envelope for one mail message.
-*
 */
 public class Envelope {
     /* SMTP-sender of the message (in this case, contents of Fromheader. */
@@ -40,8 +39,8 @@ public class Envelope {
         System.out.println(e);
         throw e;
     }
-    return;
-    }
+        return;
+}
 /* Escape the message by doubling all periods at the beginning of
 a line. */
 private Message escapeMessage(Message message) {
